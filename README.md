@@ -1,7 +1,7 @@
 # Secure Azure Containerized Web App with WAF & Monitoring
 
 ## Overview
-This project demonstrates the design and deployment of a secure, enterprise-style Azure environment hosting a containerized web application. The focus is on cloud networking, application security, monitoring, and incident detection—core responsibilities in IT Support and Cloud Operations roles.
+This project demonstrates the design and deployment of a secure, enterprise-style Azure environment hosting a containerized web application. The focus is on cloud networking, application security, monitoring, and incident detection-core responsibilities in IT Support and Cloud Operations roles.
 
 ## Architecture
 - Hub–spoke virtual network design
