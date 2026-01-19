@@ -31,7 +31,7 @@ This project demonstrates the design and deployment of a secure, enterprise-styl
 ![Web App Running](webapp-running.png)
 
 ### Application Gateway Backend Health
-![Application Gateway Backend Health](Application-gateway-backend-health.png)
+![Application Gateway Backend Health](application-gateway-backend-health.png)
 
 ### Log Analytics KQL Results
 ![Log Analytics KQL Results](Log-Analytics.png)
