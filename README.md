@@ -32,3 +32,15 @@ Example query:
 AppServiceHTTPLogs
 | summarize Count = count() by ScStatus
 | order by ScStatus desc
+
+
+## Screenshots
+
+### Web App Running
+![Web App Running](screenshots/webapp-running.png)
+
+### Application Gateway Backend Health
+![Application Gateway Backend Health](screenshots/app-gateway-backend-health.png)
+
+### Log Analytics KQL Results
+![Log Analytics KQL Results](screenshots/log-analytics-kql-results.png)
