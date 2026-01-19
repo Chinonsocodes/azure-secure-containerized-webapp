@@ -58,7 +58,8 @@ Alert rule configured to detect HTTP server errors and notify support teams.
 
 
 
-## Cost Management All Azure resources were deleted after validation and documentation to prevent unnecessary charges.
+## Cost Management 
+All Azure resources were deleted after validation and documentation to prevent unnecessary charges.
 
 
 
