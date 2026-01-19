@@ -39,12 +39,10 @@ Backend pool health showing successful routing through Azure Application Gateway
 KQL query results from Azure Log Analytics analyzing HTTP status codes for application traffic.
 ![Log Analytics KQL Results](log-analytics.png)
 
-### Aleert rules
+### Alert rules
 Alert rule configured to detect HTTP server errors and notify support teams.
 ![Alert Rules](alert-rules.png)
 
-
-## Monitoring & Troubleshooting
 ## Monitoring & Troubleshooting
 Application and gateway logs were collected in a Log Analytics workspace. KQL queries were used to analyze HTTP status codes and validate application health.
 
@@ -60,6 +58,8 @@ Example query:
 AppServiceHTTPLogs
 | summarize Count = count() by ScStatus
 | order by ScStatus desc
+
+
 
 ## Cost Management
 All Azure resources were deleted after validation and documentation to prevent unnecessary charges.
