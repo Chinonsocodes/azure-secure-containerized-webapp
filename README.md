@@ -34,7 +34,10 @@ This project demonstrates the design and deployment of a secure, enterprise-styl
 ![Application Gateway Backend Health](application-gateway-backend-health.png)
 
 ### Log Analytics KQL Results
-![Log Analytics KQL Results](Log-Analytics.png)
+![Log Analytics KQL Results](log-analytics.png)
+
+### Aleert rules
+![Alert Rules](log-analytics.png)
 
 
 ## Monitoring & Troubleshooting
