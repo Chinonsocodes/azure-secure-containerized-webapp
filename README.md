@@ -37,7 +37,7 @@ AppServiceHTTPLogs
 ## Screenshots
 
 ### Web App Running
-![Web App Running](screenshots/webapp-running.png)
+![Web App Running](webapp-running.png)
 
 ### Application Gateway Backend Health
 ![Application Gateway Backend Health](screenshots/app-gateway-backend-health.png)
