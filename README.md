@@ -37,7 +37,7 @@ This project demonstrates the design and deployment of a secure, enterprise-styl
 ![Log Analytics KQL Results](log-analytics.png)
 
 ### Aleert rules
-![Alert Rules](log-analytics.png)
+![Alert Rules](alert-rules.png)
 
 
 ## Monitoring & Troubleshooting
