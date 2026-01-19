@@ -31,9 +31,9 @@ Example query:
 ```kusto
 AppServiceHTTPLogs
 | summarize Count = count() by ScStatus
-| order by ScStatus desc
+| order by ScStatus desc:
 
-``` markdown
+
 
 
 ## Screenshots
