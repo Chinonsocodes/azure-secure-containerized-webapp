@@ -24,15 +24,6 @@ This project demonstrates the design and deployment of a secure, enterprise-styl
 - Queried logs using KQL to validate application health
 - Configured Azure Monitor alerts for HTTP 5xx errors
 
-## Monitoring & Troubleshooting
-Logs are collected in a Log Analytics workspace and queried using KQL to analyze traffic patterns and application health.
-
-Example query:
-```kusto
-AppServiceHTTPLogs
-| summarize Count = count() by ScStatus
-| order by ScStatus desc
-
 
 ## Screenshots
 
@@ -44,3 +35,14 @@ AppServiceHTTPLogs
 
 ### Log Analytics KQL Results
 ![Log Analytics KQL Results](screenshots/log-analytics-kql-results.png)
+
+
+## Monitoring & Troubleshooting
+Logs are collected in a Log Analytics workspace and queried using KQL to analyze traffic patterns and application health.
+
+Example query:
+```kusto
+AppServiceHTTPLogs
+| summarize Count = count() by ScStatus
+| order by ScStatus desc
+
