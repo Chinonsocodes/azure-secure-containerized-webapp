@@ -1,7 +1,7 @@
 # Secure Azure Containerized Web App with WAF & Monitoring
 
 ## Overview
-This project demonstrates the design and deployment of a secure, enterprise-style Azure environment hosting a containerized web application. The focus is on cloud networking, application security, monitoring, and incident detection-core responsibilities in IT Support and Cloud Operations roles.
+This project demonstrates the deployment of a secure, containerized web application in Microsoft Azure using enterprise-style networking, security, and monitoring practices. The solution focuses on application availability, traffic inspection, centralized logging, and incident detection.
 
 ## Architecture
 - Hub–spoke virtual network design
@@ -45,11 +45,23 @@ Alert rule configured to detect HTTP server errors and notify support teams.
 
 
 ## Monitoring & Troubleshooting
-Logs are collected in a Log Analytics workspace and queried using KQL to analyze traffic patterns and application health.
+## Monitoring & Troubleshooting
+Application and gateway logs were collected in a Log Analytics workspace. KQL queries were used to analyze HTTP status codes and validate application health.
 
 Example query:
 ```kusto
 AppServiceHTTPLogs
 | summarize Count = count() by ScStatus
 | order by ScStatus desc
+
+
+Example query:
+```kusto
+AppServiceHTTPLogs
+| summarize Count = count() by ScStatus
+| order by ScStatus desc
+
+## Cost Management
+All Azure resources were deleted after validation and documentation to prevent unnecessary charges.
+
 
