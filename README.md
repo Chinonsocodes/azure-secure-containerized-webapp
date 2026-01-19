@@ -59,9 +59,11 @@ AppServiceHTTPLogs
 | summarize Count = count() by ScStatus
 | order by ScStatus desc
 
-
+end;
 
 ## Cost Management
 All Azure resources were deleted after validation and documentation to prevent unnecessary charges.
+
+
 
 
