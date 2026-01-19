@@ -28,15 +28,19 @@ This project demonstrates the design and deployment of a secure, enterprise-styl
 ## Screenshots
 
 ### Web App Running
+The containerized web application successfully deployed and running on Azure Web App for Containers.
 ![Web App Running](webapp-running.png)
 
 ### Application Gateway Backend Health
+Backend pool health showing successful routing through Azure Application Gateway (WAF v2).
 ![Application Gateway Backend Health](application-gateway-backend-health.png)
 
 ### Log Analytics KQL Results
+KQL query results from Azure Log Analytics analyzing HTTP status codes for application traffic.
 ![Log Analytics KQL Results](log-analytics.png)
 
 ### Aleert rules
+Alert rule configured to detect HTTP server errors and notify support teams.
 ![Alert Rules](alert-rules.png)
 
 
